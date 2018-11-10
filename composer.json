@@ -3,6 +3,7 @@
     "description": "Sales package for tadascript.",
     "keywords": ["lavalite", "Sales"],
     "license": "MIT",
+    "type": "lavalite-package",
     "authors": [
         {
             "name": "Lavalite",
@@ -26,7 +27,7 @@
                 "Tadascript\\Sales\\Providers\\SalesServiceProvider"
             ],
             "aliases": {
-                "Blog"       : "Tadascript\\Sales\\Facades\\Sales"
+                "SalesBlog"       : "Tadascript\\Sales\\Facades\\Sales"
             }
         }
     },
